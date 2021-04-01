@@ -24,13 +24,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // pulsing
+        // nudging
         Button nudgebtn = (Button) findViewById(R.id.nudgebtn);
         nudgebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent nudgeIntent = new Intent(getApplicationContext(), MainActivity2.class);
                 startActivity(nudgeIntent);
+            }
+        });
+
+        // digital literacy traning
+        Button digibtn = (Button) findViewById(R.id.digibtn);
+        digibtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent digiIntent = new Intent(getApplicationContext(), MainActivity4.class);
+                startActivity(digiIntent);
             }
         });
 

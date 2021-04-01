@@ -3,19 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CC1D1D"
+    android:background="#B6CDE4"
     tools:context=".MainActivity2">
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_width="309dp"
+        android:layout_height="69dp"
         android:layout_marginTop="16dp"
-        android:background="#DADADA"
+        android:background="#006200EE"
         android:ems="12"
-        android:inputType="textPersonName"
-        android:text="CXO PULSE AND NUDGE APP"
-        android:textSize="30sp"
+        android:text="CXO PULSE AND NUDGE"
+        android:textAlignment="center"
+        android:textSize="25dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -24,41 +24,53 @@
 
     <Button
         android:id="@+id/nudgebtn"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="108dp"
+        android:layout_width="313dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="272dp"
         android:text="Nudge"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="325dp"
+        android:layout_height="61dp"
         android:layout_marginBottom="16dp"
         android:text="This app is devoted towards implimenting a nudge and pulse scheme resembling the USAF A1X system. This allows for units to stay connected, guide conduct, and create a unit cohesiveness. "
-        android:textSize="18sp"
+        android:textSize="12sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.912"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="358dp"
-        android:layout_height="97dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginBottom="196dp"
+        android:layout_width="312dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="40dp"
         android:text="Nudging is focused on guiding units based on simple, guided, questions to get you thinking."
+        android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nudgebtn"
+        app:layout_constraintVertical_bias="0.237"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/nudgebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/nudging" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
