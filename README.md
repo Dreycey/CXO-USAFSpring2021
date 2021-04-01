@@ -16,6 +16,7 @@ The primary goal for the app was to allow for people to link to surveys using a 
 
 In addition to developing a pulse and nudge module for the application, it would be even better to also have a digital literacy button, thereby completing all of the requests from the leadership team. Instead of performing monitoring of what people are doing on social media, the idea here is to design a training service that happens daily along with the pulsing and nudging. That way it works as part of the daily routine, wake up, look at daily digital literacy tip, then take DigiTest (for assessing digital literacy knowledge), do a daily pulse and nudge. Altogether this would take about 10 minutes and could be part of a morning routine for example (Figure 1B). 
 
+![image](https://user-images.githubusercontent.com/33699024/113363834-2e915100-930f-11eb-817b-812acd039d2c.png)
 
  
 **Figure 1- A) Shown here is the overall idea outlined for creating a method for having pulsing and nudging in an android app. B) The next steps for the app would be to have a method for digital literacy training. Here is an illustration for what was proposed.**
@@ -39,4 +40,3 @@ Digital literacy is also part of the app. This came about in the second version 
 ## Conclusion
 
 As the future of psychological analysis and treatment begin to create new methods for gaining an understanding of team emotion, technology will play a vital role in ensuring it’s success. Here an app for rapidly assessing mood and encouraging behavior was developed. Likewise, this app also aims to ameliorate the negative impacts of the digital era by delivering a prototyped digital literacy training module for equipping units with knowledge of digital literacy rather than using more invasive methods of digital monitoring. 
-![image](https://user-images.githubusercontent.com/33699024/113363753-effb9680-930e-11eb-9401-15cc09f5f0b7.png)
