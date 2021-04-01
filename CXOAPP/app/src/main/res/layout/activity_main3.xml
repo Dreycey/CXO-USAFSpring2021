@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6CDE4"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="309dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:background="#006200EE"
+        android:ems="12"
+        android:text="CXO PULSE AND NUDGE"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="363dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:text="Pulsing is focused on emotional climate of units. Ensuring proper head space is important, let us know how you are doing."
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pulsebtn"
+        app:layout_constraintVertical_bias="0.225"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/pulsebtn"
+        android:layout_width="313dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="256dp"
+        android:text="Pulse"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="325dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:text="This app is devoted towards implimenting a nudge and pulse scheme resembling the USAF A1X system. This allows for units to stay connected, guide conduct, and create a unit cohesiveness. "
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/pulsebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/pulsing" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

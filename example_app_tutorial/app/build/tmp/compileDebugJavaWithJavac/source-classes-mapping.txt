@@ -1,0 +1,14 @@
+com/main/example_app_tutorial/MainActivity2.java
+ com.main.example_app_tutorial.MainActivity2
+ com.main.example_app_tutorial.MainActivity2$1
+com/main/example_app_tutorial/FirstFragment.java
+ com.main.example_app_tutorial.FirstFragment
+ com.main.example_app_tutorial.FirstFragment$1
+com/main/example_app_tutorial/MainActivity.java
+ com.main.example_app_tutorial.MainActivity
+ com.main.example_app_tutorial.MainActivity$1
+com/main/example_app_tutorial/SecondFragment.java
+ com.main.example_app_tutorial.SecondFragment
+ com.main.example_app_tutorial.SecondFragment$1
+com/main/example_app_tutorial/BuildConfig.java
+ com.main.example_app_tutorial.BuildConfig
