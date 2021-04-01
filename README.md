@@ -30,10 +30,14 @@ Android studio was used for used for creating the application and all of the cod
 Nudging is set up the same way as pulsing. Here the nudging is used to enforce behavior using suggestive questioning. These questions are also listed on survey monkey which allows for changing the questions online so that the app immediately links to the survey. These are also amenable to changes, so leadership or people designing questions can change them whenever they feel the urge (Figure 2B). 
 
  
+ ![image](https://user-images.githubusercontent.com/33699024/113363845-381ab900-930f-11eb-8739-adc6d6b335ee.png)
+
+
 **Figure 2 - A) The outline of how the Pulsing module works on the app. B) Outline of how the Nudging module works on the app.**
 
 Digital literacy is also part of the app. This came about in the second version of the app and is focused on giving a set of training material to units so they may avoid common pitfalls of the digital age. It is becoming increasingly important to have military personal that are trained in basic digital literacy, so the app also performs this task using the digital literacy module (Figure 3). Within the digital literacy module, users can open four different links for training. The DigiLearn link opens up to a daily tip for digital literacy, and these daily tips are followed up by a daily quick test using the DigiTest feature. The DigiTest links to a survey monkey survey where the user can test their knowledge of the digital literacy test of the day, as well as overall knowledge regarding digital literacy training. In addition to daily training material, there is also a link to a video training on digital literacy as well as a manual for digital literacy training. When users first open up the app they will be directed to the Digital literacy training manual where they can set the foundation for what they should know regarding digital literacy. 
 
+![image](https://user-images.githubusercontent.com/33699024/113363856-3ea93080-930f-11eb-8bab-f9c9d645347f.png)
  
 **Figure 3 - Outline of the digital literacy module including all of the subcomponents.**
 
